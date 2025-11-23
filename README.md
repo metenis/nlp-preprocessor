@@ -20,7 +20,7 @@ It is designed to be modular: use the whole pipeline or import specific function
 * **N-Gram Generation:** Creates Bigrams (2-word context) and Trigrams (3-word context) to capture phrase meaning.
 * **Noise Removal:** Strips punctuation, numbers, and special characters.
 
-## sProject Structure
+## Project Structure
 
 ```text
 nlp-preprocessor/
