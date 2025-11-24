@@ -1,18 +1,14 @@
-# Advanced NLP Text Preprocessor
+Advanced NLP Text Preprocessor
 
-**A complete, modular Python pipeline for transforming raw text into structured data for Natural Language Processing.**
+A complete, modular Python pipeline for transforming raw text into structured data for Natural Language Processing.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![NLTK](https://img.shields.io/badge/Dependency-NLTK-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-# Overview
+Overview
 
 Preparing text data is the most time-consuming part of AI development. This repository provides a suite of tools to handle the entire preprocessing lifecycle. Unlike basic cleaning scripts, this toolkit handles morphological analysis (Lemmatization) and context extraction (N-grams) to preserve semantic meaning.
 
 It is designed to be modular: use the whole pipeline via main.py or import specific functions into your own scripts.
 
-# Key Features
+Key Features
 
 Text Normalization: Robust lowercasing and punctuation removal.
 
@@ -24,7 +20,7 @@ N-Gram Generation: Creates Bigrams (2-word context) to capture phrases like "Mac
 
 Noise Removal: Strips digits, punctuation, and special characters.
 
-# Project Structure
+Project Structure
 
 nlp-preprocessor/
 ├── data/
@@ -39,7 +35,7 @@ nlp-preprocessor/
 └── README.md
 
 
-# Getting Started
+Getting Started
 
 Prerequisites
 
@@ -51,7 +47,7 @@ Installation
 
 Clone the repository:
 
-git clone [https://github.com/yourusername/nlp-preprocessor.git](https://github.com/metenis/nlp-preprocessor.git)
+git clone [https://github.com/metenis/nlp-preprocessor.git](https://github.com/metenis/nlp-preprocessor.git)
 
 
 Install dependencies:
@@ -65,7 +61,7 @@ The main.py script automatically checks for and downloads required NLTK data (in
 python main.py
 
 
-# Usage Examples
+Usage Examples
 
 1. The Full Pipeline (Cleaning + Lemmatization)
 
@@ -106,7 +102,7 @@ print(bigrams)
 # Output: [('artificial', 'intelligence'), ('intelligence', 'is'), ('is', 'powerful')]
 
 
-# Comparison: Lemmatization vs. Stemming
+Comparison: Lemmatization vs. Stemming
 
 This repo uses Lemmatization for higher accuracy in downstream tasks.
 
@@ -140,7 +136,7 @@ Fast
 
 Slower but semantically accurate
 
-# Contributing
+Contributing
 
 Contributions are welcome!
 
@@ -152,6 +148,6 @@ Commit your changes.
 
 Push to the branch and open a Pull Request.
 
-📄 License
+License
 
 Distributed under the MIT License. See LICENSE for more information.
