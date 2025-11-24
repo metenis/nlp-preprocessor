@@ -20,22 +20,8 @@ N-Gram Generation: Creates Bigrams (2-word context) to capture phrases like "Mac
 
 Noise Removal: Strips digits, punctuation, and special characters.
 
-Project Structure
 
-nlp-preprocessor/
-├── data/
-│   └── input_data.txt       # Example input text
-├── src/
-│   ├── __init__.py
-│   ├── cleaner.py           # Normalization & Stopword logic
-│   ├── lemmatizer.py        # Morphological analysis (WordNet)
-│   └── ngrams.py            # N-gram generation logic
-├── main.py                  # The pipeline entry point
-├── requirements.txt
-└── README.md
-
-
-Getting Started
+# Getting Started
 
 Prerequisites
 
