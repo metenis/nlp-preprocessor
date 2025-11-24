@@ -1,14 +1,14 @@
-Advanced NLP Text Preprocessor
+# Advanced NLP Text Preprocessor
 
 A complete, modular Python pipeline for transforming raw text into structured data for Natural Language Processing.
 
-Overview
+# Overview
 
 Preparing text data is the most time-consuming part of AI development. This repository provides a suite of tools to handle the entire preprocessing lifecycle. Unlike basic cleaning scripts, this toolkit handles morphological analysis (Lemmatization) and context extraction (N-grams) to preserve semantic meaning.
 
 It is designed to be modular: use the whole pipeline via main.py or import specific functions into your own scripts.
 
-Key Features
+# Key Features
 
 Text Normalization: Robust lowercasing and punctuation removal.
 
@@ -61,7 +61,7 @@ The main.py script automatically checks for and downloads required NLTK data (in
 python main.py
 
 
-Usage Examples
+# Usage Examples
 
 1. The Full Pipeline (Cleaning + Lemmatization)
 
@@ -136,7 +136,7 @@ Fast
 
 Slower but semantically accurate
 
-Contributing
+# Contributing
 
 Contributions are welcome!
 
